@@ -1,14 +1,19 @@
 
+
+
 document.getElementById('Donate-btn')
-.addEventListener('click',function(){
+.addEventListener('click', function() {
     
     
+    const donationInput = parseFloat(document.getElementById('input-donation').value);
+    const donateBalance = parseFloat(document.getElementById('Donate-balance').innerText);
 
-    const donationInput =document.getElementById('input-donation').value;
-    console.log(donationInput);
-    const donateBalance=document.getElementById('Donate-balance')
+    
+    const totalBalance = donationInput + donateBalance;
+    
+    
+    document.getElementById('Donate-balance').innerText = totalBalance;
 
-
-    const totalBalance= donateBalance + donationInput
-    // console.log(totalBalance);
-}) 
+    
+    document.getElementById('input-donation').value = '';
+});

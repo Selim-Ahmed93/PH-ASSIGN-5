@@ -16,4 +16,18 @@ document.getElementById('Donate-btn')
 
     
     document.getElementById('input-donation').value = '';
+
+    let x = donationInput;
+
+    if (x === donationInput) {
+        console.log("add your Donation Money");
+    } else {
+        console.log("please valid money");
+    }
+    
 });
+
+
+
+
+

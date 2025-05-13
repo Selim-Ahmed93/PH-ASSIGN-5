@@ -24,7 +24,7 @@ This is the **Assignment 5** project submitted during my Web Development course 
 
 - HTML5  
 - CSS3  
-- No JavaScript used — fully static
+- JavaScript used — Vanilla Js
 
 ---
 
